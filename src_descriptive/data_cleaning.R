@@ -10,6 +10,6 @@ data[emptyid, "date_time_end"] <- NA
 format <- "%Y-%m-%dT%H:%M:%S+00:00"
 tmp <- as.POSIXlt( data[, "date_time_begin"], format=format)
 tmp2 <- as.POSIXlt( data[, "date_time_end"], format=format)
-data <- cbind(data,date_time_begin=tmp,date_time_end=tmp2)
+data <- cbind(data,date_time_begin_new=tmp,date_time_end_new=tmp2)
 
-save(data, file="data_clean.Rdata")
+save(data, file="data/data_clean.Rdata")
