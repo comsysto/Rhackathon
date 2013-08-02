@@ -2,6 +2,7 @@ R Hackathon Munich 2013
 =======================
 
 We are analyzing data from techism.de. A platform for Munich based Meetup groups.
+Data is now available on a daily basis at: https://www.techism.de/static/export/techism-events.csv
 
 
 Team:
